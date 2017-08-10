@@ -7,8 +7,17 @@
   height: 500px;
   margin: 0 auto;
 }
+
+body {
+background-color: #5D2121;
+
+}
+
+
+
+
 div {
-  border: 1px solid black;
+  border: 3px solid black;
 }
 button {
   display: block;
@@ -18,9 +27,17 @@ button {
   border-radius: 5px;
   margin-top: 30px;
   border: none;
-  box-shadow: 1px 1px 1px 1px gray
+  box-shadow: 1px 1px 1px 1px #4A1010;
 }
 button:hover {
   color: white;
-  background: #305e59;
+  background: #FFA51E;
+
+}
+
+
+.word {
+background-color: hsla(0, 46%, 36%, 0.74);
+box-shadow: 1px 1px 2px 3px #4A1010;
+
 }
